@@ -8,5 +8,11 @@ print("Hello, World!!!")
 sleep(1)
 
 print("это еще не все")
-sleep()
+sleep(1)
 print("теперь всё")
+
+import asyncio
+import aiohttp
+print(asyncio)
+print(aiohttp)
+
