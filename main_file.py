@@ -7,12 +7,6 @@ for i in range(1, 3):
 print("Hello, World!!!")
 sleep(1)
 
-print(123)
-print("еще")
 
-
-text = """My name is Dima.
-I'm 30.
-I work in lab"""
-
+text = "My name is Dima"
 print(text)
