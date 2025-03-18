@@ -10,5 +10,3 @@ sleep(1)
 print("это еще не все")
 sleep(1)
 print("теперь всё")
-
-print(123)
