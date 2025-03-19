@@ -33,8 +33,3 @@ def func(value: int) -> int:
 if __name__ == "__main__":
     result = func(value=10)
     print(result)
-
-
-def new_func(string: str) -> int:
-    """возвращает длину строки"""
-    return len(string)
