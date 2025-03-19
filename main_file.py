@@ -6,3 +6,5 @@ for i in range(1, 3):
 
 print("Hello, World!!!")
 sleep(1)
+
+print("добавили еще")
