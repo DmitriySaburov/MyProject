@@ -39,4 +39,3 @@ def my_func(string: str) -> int:
     predicate = lambda w: w in "aeyuio"
     return len(list(filter(predicate, string)))
 
-print(my_func("wepotiuhe"))
