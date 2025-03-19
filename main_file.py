@@ -33,3 +33,10 @@ def func(value: int) -> int:
 if __name__ == "__main__":
     result = func(value=10)
     print(result)
+
+def my_func(string: str) -> int:
+    """возвращает кол-во гласных букв в строке"""
+    predicate = lambda w: w in "aeyuio"
+    return len(list(filter(predicate, string)))
+
+print(my_func("wepotiuhe"))
