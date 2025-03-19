@@ -6,7 +6,3 @@ for i in range(1, 3):
 
 print("Hello, World!!!")
 sleep(1)
-
-
-text = "My name is Dima"
-print(text)
