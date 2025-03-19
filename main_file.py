@@ -29,4 +29,6 @@ def func(value: int) -> int:
     print(f"работает функция: {func.__name__}")
     return value ** 2
 
-print(func(5))
+if __name__ == "__main__":
+    result = func(value=10)
+    print(result)
