@@ -32,4 +32,7 @@ def new_function(value: int) -> int:
     result = value + value
     return result
 
+def func_1():
+    return 1
+
 print("конец")
