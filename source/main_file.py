@@ -35,4 +35,7 @@ def new_function(value: int) -> int:
 def func_1():
     return 1
 
+def func_2():
+    return 2
+
 print("конец")
