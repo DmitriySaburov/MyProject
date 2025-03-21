@@ -32,7 +32,4 @@ def new_function(value: int) -> int:
     result = value + value
     return result
 
-def feature():
-    print(f"Это {feature.__name__}")
-
 print("конец")
