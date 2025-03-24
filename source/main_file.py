@@ -33,6 +33,6 @@ def new_function(value: int) -> int:
     return result
 
 def func_main(value):
-    return type(value)
+    return len(string)
 
 print("конец")
