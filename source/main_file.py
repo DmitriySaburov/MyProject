@@ -32,10 +32,7 @@ def new_function(value: int) -> int:
     result = value + value
     return result
 
-def func_1():
-    return 1
-
-def func_2():
-    return 2
+def func_feature(string):
+    return len(string)
 
 print("конец")
